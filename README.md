@@ -1,5 +1,4 @@
-# data-Simultaneous-Stereo-Video-Deblurring-and-Scene-Flow-Estimation
-CVPR - 2017
+# 
 
 generate blur image
 
