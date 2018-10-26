@@ -18,7 +18,9 @@ Here, tau = 0.5 and iter = 70 in our paper.
 The clean stereo image here (http://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=stereo)
 and use a state-of-the-art flow estimation method on that page to estimate the optical flow. 
 
-The blurry dataset includes 200 sequences, each sequence only contains blurry iamge 9, 10, and 11. (eg. use frame 8, 9, and 10 to generate blurry image 9).
+The blurry dataset includes 200 sequences, we use the sequence from 1 to 199. 
+Each sequence only contains blurry iamge 9, 10, and 11. (eg. use frame 8, 9, and 10 to generate blurry image 9).
+For multi_view, each sequence will give 6 blurry image.
 ############################################################################################
 
 @inproceedings{pan2017simultaneous,
